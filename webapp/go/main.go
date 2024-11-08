@@ -115,7 +115,7 @@ func initializeHandler(c echo.Context) error {
 	}
 
 	go func() {
-		if _, err := http.Get("https://super-halibut-457qgqgqj9hj75q-9000.app.github.dev/api/group/collect"); err != nil {
+		if _, err := http.Get("https://shiny-space-xylophone-v6vvp4xvpj3wggq-9000.app.github.dev/api/group/collect"); err != nil {
 			log.Printf("failed to communicate with pprotein: %v", err)
 		}
 	}()
